@@ -57,10 +57,10 @@ export default function AdminLoginPage() {
       <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
         <div className="flex flex-col items-center space-y-2 text-center">
           <Image
-            src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=100&auto=format&fit=crop"
+            src="/logo.png"
             alt="UberEats Admin"
-            width={50}
-            height={50}
+            width={120}
+            height={120}
             className="rounded-md"
           />
           <h1 className="text-2xl font-semibold tracking-tight text-gray-900">Admin Login</h1>

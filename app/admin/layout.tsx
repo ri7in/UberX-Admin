@@ -126,13 +126,13 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
           </Link>
           <Link href="/admin/dashboard" className="hidden items-center gap-2 font-semibold md:flex">
             <Image
-              src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=50&auto=format&fit=crop"
+              src="/logo.png" 
               alt="UberEats Admin"
-              width={32}
-              height={32}
+              width={52}
+              height={52}
               className="rounded-md"
             />
-            <span className="text-gray-900">UberEats Admin Dashboard</span>
+            <span className="text-gray-900">Admin</span>
           </Link>
         </div>
         <nav className="hidden md:flex md:flex-1 md:items-center md:justify-end md:gap-4 md:px-4">
@@ -154,7 +154,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
             <Button variant="ghost" size="icon" className="rounded-full">
               <Avatar className="h-8 w-8">
                 <AvatarImage
-                  src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=50&auto=format&fit=crop"
+                  src="/avatar.jpeg"
                   alt="Admin"
                 />
                 <AvatarFallback>
