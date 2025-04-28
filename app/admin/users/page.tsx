@@ -154,7 +154,7 @@ export default function UsersPage() {
                           <div className="flex flex-col justify-between space-y-2 md:flex-row md:items-center md:space-y-0">
                             <div className="flex items-center space-x-4">
                               <Avatar>
-                                <AvatarImage src={user.avatar || "/placeholder.svg?height=40&width=40"} />
+                                <AvatarImage src={user.avatar || "/avatar.jpeg?height=40&width=40"} />
                                 <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
                               </Avatar>
                               <div>

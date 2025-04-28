@@ -102,12 +102,12 @@ export default function RestaurantRequestsPage() {
   // Restaurant images based on cuisine type
   const getRestaurantImage = (cuisine: string) => {
     const cuisineImageMap: Record<string, string> = {
-      "Sri Lankan": "https://images.unsplash.com/photo-1627894006066-b5db9f0c7db4?q=80&w=200&auto=format&fit=crop",
+      "Sri Lankan": "/rest1.jpg",
       Fusion: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=200&auto=format&fit=crop",
       "Indian/Sri Lankan":
         "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=200&auto=format&fit=crop",
-      Seafood: "https://images.unsplash.com/photo-1579684947550-22e945225d9a?q=80&w=200&auto=format&fit=crop",
-      Italian: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=200&auto=format&fit=crop",
+      Seafood: "/rest2.jpg",
+      Italian: "/rest3.jpg",
     }
 
     return (
